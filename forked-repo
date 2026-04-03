@@ -1,3 +1,26 @@
 curl -s https://api.github.com/repos/burkandreas/mcino-Introduction-to-Git-and-GitHub | jq -r '.parent.clone_url'
 https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git
 
+git checkout -b bug-fix-typo
+Switched to a new branch 'bug-fix-typo'
+
+ git commit -m "footer changed"
+[bug-fix-typo bc3e212] footer changed
+ Committer: Andreas Burk <andreas@vmd35886.contaboserver.net>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+
+
+
